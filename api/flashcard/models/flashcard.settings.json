@@ -51,16 +51,18 @@
     "fav_owner": {
       "via": "fav_list",
       "plugin": "users-permissions",
-      "collection": "user"
+      "collection": "user",
+      "dominant": true
+    },
+    "studied_flashcard": {
+      "via": "studied_owner",
+      "plugin": "users-permissions",
+      "collection": "user",
+      "dominant": true
     },
     "review_list": {
-      "collection": "review",
-      "via": "flashcard"
-    },
-    "studied_flashcards": {
-      "plugin": "users-permissions",
-      "model": "user",
-      "via": "studied_owner"
+      "via": "flashcard_id",
+      "collection": "review"
     }
   }
 }

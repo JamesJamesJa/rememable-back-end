@@ -18,9 +18,9 @@
     "rating": {
       "type": "integer"
     },
-    "flashcard": {
-      "via": "review_list",
-      "model": "flashcard"
+    "flashcard_id": {
+      "model": "flashcard",
+      "via": "review_list"
     },
     "owner_review": {
       "via": "review_list",
