@@ -19,8 +19,8 @@
       "type": "integer"
     },
     "flashcard_id": {
-      "model": "flashcard",
-      "via": "review_list"
+      "via": "review_list",
+      "model": "flashcard"
     },
     "owner_review": {
       "via": "review_list",

@@ -63,6 +63,9 @@
     "review_list": {
       "via": "flashcard_id",
       "collection": "review"
+    },
+    "description": {
+      "type": "string"
     }
   }
 }

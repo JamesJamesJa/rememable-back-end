@@ -75,8 +75,8 @@
       "collection": "flashcard"
     },
     "studied_owner": {
-      "collection": "flashcard",
-      "via": "studied_flashcard"
+      "via": "studied_flashcard",
+      "collection": "flashcard"
     }
   }
 }
