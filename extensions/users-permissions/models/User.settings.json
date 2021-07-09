@@ -62,21 +62,17 @@
     "name": {
       "type": "string"
     },
-    "review_list": {
-      "via": "owner_review",
-      "collection": "review"
-    },
-    "own_flashcards_list": {
-      "via": "owner_flashcard",
-      "collection": "flashcard"
+    "own_flashcard_list": {
+      "type": "json"
     },
     "fav_list": {
-      "via": "fav_owner",
-      "collection": "flashcard"
+      "type": "json"
     },
-    "studied_owner": {
-      "via": "studied_flashcard",
-      "collection": "flashcard"
+    "studied_flashcard_list": {
+      "type": "json"
+    },
+    "review_list": {
+      "type": "json"
     }
   }
 }

@@ -36,36 +36,17 @@
     "review_amount": {
       "type": "integer"
     },
-    "review_id": {
-      "type": "richtext"
-    },
-    "owner_flashcard": {
-      "via": "own_flashcards_list",
-      "plugin": "users-permissions",
-      "model": "user"
-    },
-    "question_list": {
-      "collection": "question",
-      "via": "flashcards"
-    },
-    "fav_owner": {
-      "via": "fav_list",
-      "plugin": "users-permissions",
-      "collection": "user",
-      "dominant": true
-    },
-    "studied_flashcard": {
-      "via": "studied_owner",
-      "plugin": "users-permissions",
-      "collection": "user",
-      "dominant": true
-    },
-    "review_list": {
-      "via": "flashcard_id",
-      "collection": "review"
-    },
     "description": {
       "type": "string"
+    },
+    "owner_flashcard_name": {
+      "type": "string"
+    },
+    "question_list": {
+      "type": "json"
+    },
+    "review_list": {
+      "type": "json"
     }
   }
 }

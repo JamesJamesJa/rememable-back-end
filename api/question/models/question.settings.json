@@ -17,10 +17,6 @@
     },
     "answer": {
       "type": "string"
-    },
-    "flashcards": {
-      "via": "question_list",
-      "model": "flashcard"
     }
   }
 }

@@ -18,14 +18,8 @@
     "rating": {
       "type": "integer"
     },
-    "flashcard_id": {
-      "via": "review_list",
-      "model": "flashcard"
-    },
-    "owner_review": {
-      "via": "review_list",
-      "plugin": "users-permissions",
-      "model": "user"
+    "owner_name": {
+      "type": "string"
     }
   }
 }
